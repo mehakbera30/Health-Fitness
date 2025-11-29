@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <header class="navbar">
+        <ul>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="index1.html">HOME</a></li>
+            <li><a href="fitness.html">FITNESS</a></li>
+            <li><a href="diet.html">DIET</a></li>
+            <!-- <li><a href="#">SPORTS</a></li> -->
+            <li><a heref="registration.html">REGISTRATION</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </header>
+
+<div class="container">
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Age</label>
+        <input type="number" placeholder="Enter your age" required>
+
+        <label>Date of Birth</label>
+        <input type="date" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="name@example.com" required>
+
+        <label>Working Type</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Student</option>
+            <option>Office Worker</option>
+            <option>Self-employed</option>
+            <option>Home-maker</option>
+        </select>
+
+        <label>Life Style</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Active</option>
+            <option>Less Active</option>
+            <option>Lightly Active</option>
+        </select>
+
+        <label>Gender</label>
+        <div class="radio-group">
+            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="female" required> Female</label>
+        </div>
+
+        <button type="submit">Register</button>
+
+    </form>
+</div>
+
+</body>
+</html>

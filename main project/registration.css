@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-image: url("gymimg.png");  
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size:cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 18px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #718028;
+}
+
+
+.container{
+    width: 380px;
+    background: rgba(11, 12, 27, 0.85);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label{
+    color:white;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+.radio-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #218838;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-image: url('gymimg.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: black;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #00eaff;
+}
+
+/* ABOUT BOX */
+.about-box {
+    width: 70%;
+    margin: 150px auto 40px;
+    background: rgba(255,255,255,0.8);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-box h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #005f73;
+}
+
+.about-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px 0;
+    background: #000;
+    color: white;
+}

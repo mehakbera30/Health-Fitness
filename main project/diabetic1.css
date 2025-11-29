@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body { 
+    background-image: url('diabeticfriendly.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #000;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #00eaff;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.header p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 30px 60px;
+}
+
+.section h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #151616;
+}
+
+/* MEAL BOXES */
+.meal {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 18px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.meal h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #0078a4;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: white;
+}
